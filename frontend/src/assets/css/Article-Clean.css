@@ -1,0 +1,203 @@
+.article-clean {
+  color: #56585b;
+  background-color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+.article-clean .intro {
+  font-size: 16px;
+  margin: 0 auto 30px;
+}
+
+.article-clean .intro h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  line-height: 1.5;
+  color: inherit;
+  margin-top: 20px;
+}
+
+.article-clean .intro p {
+  color: #929292;
+  font-size: 12px;
+}
+
+.article-clean .intro p .by {
+  font-style: italic;
+}
+
+.article-clean .intro p .date {
+  text-transform: uppercase;
+  padding: 4px 0 4px 10px;
+  margin-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.article-clean .intro p a {
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 3px;
+}
+
+.article-clean .intro img {
+  margin-top: 20px;
+}
+
+.article-clean .text p {
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+@media (min-width:768px) {
+  .article-clean .text p {
+    font-size: 16px;
+  }
+}
+
+.article-clean .text h2 {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  line-height: 1.45;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (min-width:768px) {
+  .article-clean .text h2 {
+    font-size: 20px;
+  }
+}
+
+.article-clean .text figure {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.article-clean .text figure img {
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+
+#menu {
+  position: fixed;
+  background: #333333;
+  box-shadow: 0px 0px 20px 12px rgba(33,37,41,0.73);
+  z-index: 99;
+  height: 1000px;
+  width: 300px;
+  margin-top: 0px;
+  padding-top: 50px;
+}
+
+.btn.btn-primary {
+  border-style: none;
+}
+
+#menu-perfil {
+  position: absolute;
+  background-color: #222222!important;
+}
+
+.menu-perfil {
+  position: absolute;
+  margin-top: 36px;
+  margin-right: 1px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 16px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  border-width: 3px;
+  box-shadow: 7px 7px 20px 7px;
+}
+
+
+.foto_icon {
+  position: absolute;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.file {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.label_input_file {
+  cursor: pointer;
+  padding: 0px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: var(--white);
+  font-family: Lexend, sans-serif;
+  height: 30px;
+  background: #606060;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.header-chat {
+  margin-top: 0px;
+  color: var(--white);
+  padding: 10px 0px;
+  margin: 0px 0px 0px;
+  background: rgb(15, 15, 15);
+}
+
+.anuncio-chat {
+  position: fixed;
+}
+
+.body-chat {
+  overflow-y: scroll;
+  margin: 0px 0px 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  height: 460px;
+}
+
+
+@media (max-width: 767px) {
+  #menu-lateral {
+    display: none!important;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo-petbounds {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  #header-menu {
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .container.contedor-main {
+    margin-top: 25px!important;
+  }
+}
+
+.btn-group.opciones-send {
+  position: fixed;
+}
+
+#collapse-1 {
+  position: fixed;
+}
+
