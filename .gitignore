@@ -3,5 +3,3 @@ config.json
 .env
 
 *.sql
-
-.DS_Store
