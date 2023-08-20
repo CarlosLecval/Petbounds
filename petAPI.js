@@ -282,7 +282,7 @@ class PetAPI extends DataSource {
           },
         });
         if (created) {
-          /*var info = await this.transporter.sendMail({
+          var info = await this.transporter.sendMail({
             from: '"Petbounds" <noreply@petbounds.tech>',
             to: `${correo}, ${correo}`,
             subject: "¡Verifica tu correo! ✔",
@@ -293,7 +293,7 @@ class PetAPI extends DataSource {
               '</h2><p style="font-family: Lexend;color:#4f545c;margin-bottom: 40px;">Gracias por registrarte en Petbounds, da el siguiente paso y verifica tu cuenta de correo en el siguiente enlace.</p><a href="http://petbounds.xyz/#/Validacion/' +
               usuario.id +
               '" style="font-family: Lexend; padding:10px 15px;text-decoration: none;background-color: rgb(38, 0, 255);color:white;border-radius: 5px;">Verificar correo</a></div><div style="margin:0px auto;max-width:640px;background:transparent;padding-left:10px;padding-bottom:100px;"><p style="font-family:lexend;color:#99AAB5;font-size:12px;">Este correo es enviado por Petbounds porque se registró tu correo, si no fuiste tú, ignora este correo</p></div></div></div>', // html body
-          });*/
+          });
           return usuario;
         } else {
           return null;
@@ -325,7 +325,7 @@ class PetAPI extends DataSource {
           },
         });
         if (created) {
-          /*var info = this.transporter.sendMail({
+          var info = this.transporter.sendMail({
             from: '"Petbounds" <noreply@petbounds.tech>',
             to: `${correo}, ${correo}`,
             subject: "¡Verifica tu correo! ✔",
@@ -336,7 +336,7 @@ class PetAPI extends DataSource {
               '</h2><p style="font-family: Lexend;color:#4f545c;margin-bottom: 40px;">Gracias por registrarte en Petbounds, da el siguiente paso y verifica tu cuenta de correo en el siguiente enlace.</p><a href="http://petbounds.xyz/#/Validacion/' +
               org.id +
               '" style="font-family: Lexend; padding:10px 15px;text-decoration: none;background-color: rgb(38, 0, 255);color:white;border-radius: 5px;">Verificar correo</a></div><div style="margin:0px auto;max-width:640px;background:transparent;padding-left:10px;padding-bottom:100px;"><p style="font-family:lexend;color:#99AAB5;font-size:12px;">Este correo es enviado por Petbounds porque se registró tu correo, si no fuiste tú, ignora este correo</p></div></div></div>', // html body
-          });*/
+          });
           return org;
         } else {
           return null;
@@ -369,7 +369,7 @@ class PetAPI extends DataSource {
           },
         });
         if (created) {
-          /*var info = this.transporter.sendMail({
+          var info = this.transporter.sendMail({
             from: '"Petbounds" <noreply@petbounds.tech>',
             to: `${correo}, ${correo}`,
             subject: "¡Verifica tu correo! ✔",
@@ -380,7 +380,7 @@ class PetAPI extends DataSource {
               '</h2><p style="font-family: Lexend;color:#4f545c;margin-bottom: 40px;">Gracias por registrarte en Petbounds, da el siguiente paso y verifica tu cuenta de correo en el siguiente enlace.</p><a href="http://petbounds.xyz/#/Validacion/' +
               prest.id +
               '" style="font-family: Lexend; padding:10px 15px;text-decoration: none;background-color: rgb(38, 0, 255);color:white;border-radius: 5px;">Verificar correo</a></div><div style="margin:0px auto;max-width:640px;background:transparent;padding-left:10px;padding-bottom:100px;"><p style="font-family:lexend;color:#99AAB5;font-size:12px;">Este correo es enviado por Petbounds porque se registró tu correo, si no fuiste tú, ignora este correo</p></div></div></div>', // html body
-          });*/
+          });
           return prest;
         } else {
           return null;
@@ -685,13 +685,13 @@ class PetAPI extends DataSource {
       );
     }
     if (vali[0] === 1) {
-      /*var info = this.transporter.sendMail({
+      var info = this.transporter.sendMail({
         from: '"Petbounds" <noreply@petbounds.tech>',
         to: `${correo}, ${correo}`,
         subject: "Bienvenido!",
         text: "¡Bienvenido! \n Todo el equipo de Petbounds te da un gran agradecimiento y una calurosa bienvenida a esta comunidad en la que podrás ayudar a miles de mascotas en situación de calle, los gatitos y perritos del mundo te lo agredecen!",
         html: '<div style="background:#f9f9f9" align="center"><div style="background:#f9f9f9;margin:0px auto;max-width:640px;padding-top:10px;">     <div style="margin:0px auto;max-width:640px;background:transparent"><img style="padding-left: 10px;" width="300px" src="https://archivospetbounds.s3-us-west-2.amazonaws.com/petbounds_blanco.png"></div><div style="margin:0px auto;max-width:640px;background:#ffffff;padding-top:20px;padding-left:10px;padding-bottom:20px;"><h2 style="font-family:lexend;color:#4f545c">¡Bienvenido!</h2><p style="font-family: Lexend;color:#4f545c;margin-bottom: 40px;">Todo el equipo de Petbounds te da un gran agradecimiento y una calurosa bienvenida a esta comunidad en la que podrás ayudar a miles de mascotas en situación de calle, los gatitos y perritos del mundo te lo agredecen!</p><a href="" style="font-family: Lexend; padding:10px 15px;text-decoration: none;background-color: rgb(38, 0, 255);color:white;border-radius: 5px;">Comencemos!</a></div><div style="margin:0px auto;max-width:640px;background:#ffffff;padding-top:20px;padding-left:10px;padding-bottom:20px;"><h3 style="font-family:lexend;color:#4f545c">¿Qué puedo hacer en Petbounds?</h3><img src="https://archivospetbounds.s3-us-west-2.amazonaws.com/adopcion.jpeg"><p style="font-family:Lexend;">Brinda un hogar a animales que no conocen uno</p><img width="600px" src="https://archivospetbounds.s3-us-west-2.amazonaws.com/donaciones.jpeg"><p style="font-family:Lexend;">Dona a organizaciones que cuidan de animales</p><img width="600px" src="https://archivospetbounds.s3-us-west-2.amazonaws.com/servicios.jpeg"><p style="font-family:Lexend;">Contrata servicios de cuidado para tu mejor amigo</p></div><div style="margin:0px auto;max-width:640px;background:transparent;padding-left:10px;padding-bottom:100px;"><p style="font-family:lexend;color:#99AAB5;font-size:12px;">Petbounds contact us soporte@petbounds.tech</p></div></div></div>',
-      });*/
+      });
     }
     return vali[0];
   }

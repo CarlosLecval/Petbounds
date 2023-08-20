@@ -15,7 +15,7 @@ async function startApolloServer() {
   const app = express();
   const project_routes = require("./project");
 
-  /*var transporter = nodemailer.createTransport({
+  var transporter = nodemailer.createTransport({
     host: process.env.mailHost,
     port: process.env.mailPort,
     tls: {
@@ -27,13 +27,13 @@ async function startApolloServer() {
       user: process.env.mailUser,
       pass: process.env.mailPass,
     },
-  });*/
+  });
 
-  /*transporter.verify(function (error, success) {
+  transporter.verify(function (error, success) {
     if (error) {
       console.log(error);
     }
-  });*/
+  });
 
   const server = new ApolloServer({
     subscriptions: {
@@ -48,7 +48,6 @@ async function startApolloServer() {
     typeDefs,
     resolvers,
     dataSources: () => ({
-      //petAPI: new PetAPI({ store, mongoStore, transporter }),
       petAPI: new PetAPI({ store, mongoStore, undefined }),
     }),
   });
