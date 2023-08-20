@@ -18,11 +18,6 @@ async function startApolloServer() {
   var transporter = nodemailer.createTransport({
     host: process.env.mailHost,
     port: process.env.mailPort,
-    tls: {
-      secure: true,
-      rejectUnauthorized: false,
-      secureProtocol: "TLSv1_method",
-    }, // true for 465, false for other ports
     auth: {
       user: process.env.mailUser,
       pass: process.env.mailPass,
