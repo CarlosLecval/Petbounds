@@ -1,11 +1,6 @@
 //import './assets/bootstrap/css/bootstrap.min.css';
 import logo from './assets/img/petbounds_blanco.png';
 import React, {Component} from 'react';
-import jyarufoto from './assets/img/31DEBA24-3DE2-4BF7-B669-795C667AF9A1_1_201_a.jpeg'
-import leconafoto from './assets/img/clipboard-image-1.png';
-import yaosaifoto from './assets/img/clipboard-image-2.png';
-import amselfoto from './assets/img/clipboard-image-4.png';
-import gaelfoto from './assets/img/clipboard-image-3.png';
 import boy from './assets/img/guy-walking-with-dog-in-the-park-2127165-2127165.svg'
 import EarthBoundlogo from './assets/img/earthlogoblanco.png';
 import './assets/css/Features-Clean.css'
@@ -79,39 +74,39 @@ class PaginaInicio extends Component{
                 <div className="container">
                     <div className="intro">
                         <h2 className="text-center">EarthBound Tech</h2>
-                        <p className="text-center">Estudiantes de programación del IPN amantes de lo animales que buscan usar sus conocimientos para aportar a la sociedad (;</p>
+                        <p className="text-center">Estudiantes de programación de la up amantes de lo animales que buscan usar sus conocimientos para aportar a la sociedad (;</p>
                     </div>
                     <div className="row people">
                         <div className="col-md-6 col-lg-4 item">
-                            <div className="box"><img className="rounded-circle" src={jyarufoto}/>
+                            <div className="box">
                                 <h3 className="name">Jyarü Hernández</h3>
                                 <p className="title">front end DEVELOPER</p>
                                 <p className="description">Fan de star wars, la programación y michilucas</p>
-                                <div className="social"><a href="https://www.facebook.com/jochitoquisde"><i className="fa fa-facebook-official"></i></a><a href="https://twitter.com/JyaruH"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/jyaru__hernandez/"><i className="fa fa-instagram"></i></a></div>
+                                <div className="social"><a href="https://www.facebook.com/"><i className="fa fa-facebook-official"></i></a><a href="https://twitter.com/"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/"><i className="fa fa-instagram"></i></a></div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 item">
-                            <div className="box"><img className="rounded-circle" src={leconafoto}/>
+                            <div className="box">
                                 <h3 className="name">Carlos Lecona</h3>
                                 <p className="title"><strong>back end developer</strong></p>
                                 <p className="description">Síndrome del crujito<br/>Síntomas:<br/>-Crujito</p>
-                                <div className="social"><a href="https://www.facebook.com/carlos.lecval"><i className="fa fa-facebook-official"></i></a><a href="https://twitter.com/carloslecval"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/carlos_lecona0/"><i className="fa fa-instagram"></i></a></div>
+                                <div className="social"><a href="https://www.facebook.com"><i className="fa fa-facebook-official"></i></a><a href="https://twitter.com/"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/"><i className="fa fa-instagram"></i></a></div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 item">
-                            <div className="box"><img className="rounded-circle" src={yaosaifoto}/>
-                                <h3 className="name">Yaosai Pérez</h3>
-                                <p className="title">LOL PLAYER</p>
-                                <p className="description">Está persona no reconoce a Israel como un estado legítimo, arriba Palpatine&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
-                                <div className="social"><a href="https://www.facebook.com/diego.perezch"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/yaosai.io/"><i className="fa fa-instagram"></i></a></div>
+                            <div className="box">
+                                <h3 className="name">Helena Giesemann</h3>
+                                <p className="title">backend developer</p>
+                                <p className="description"></p>
+                                <div className="social"><a href="https://www.facebook.com/"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/"><i className="fa fa-instagram"></i></a></div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 item">
-                            <div className="box" id='anseliuts'><img className="rounded-circle" src={amselfoto}/>
-                                <h3 className="name">Amsel Castillo</h3>
-                                <p className="title"><strong>Sexmachine</strong></p>
-                                <p className="description">Me gusta caminar, fan de One piece y de Jøsune, algún día te arrepentirás, tú sabes quién eres. </p>
-                                <div className="social"><a href="https://www.facebook.com/Amseliux"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/amselcastillo/"><i className="fa fa-instagram"></i></a></div>
+                            <div className="box" id='anseliuts'>
+                                <h3 className="name">Kenia Flores</h3>
+                                <p className="title"><strong>front end developer</strong></p>
+                                <p className="description"> </p>
+                                <div className="social"><a href="https://www.facebook.com/"><i className="fa fa-facebook-official"></i></a><a href="#"><i className="fa fa-twitter"></i></a><a href="https://www.instagram.com/"><i className="fa fa-instagram"></i></a></div>
                             </div>
                         </div>
                     </div>
