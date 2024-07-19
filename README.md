@@ -1,5 +1,5 @@
 # Petbounds
-This is an adoption platform for street dogs where users can adopt dogs from certified shelters. In addition to facilitating adoptions, shelters can run donation campaigns to support their operations and the care of the dogs. The platform is designed to be user-friendly, making it easy to browse available dogs and participate in donation campaigns.
+Adoption platform for street dogs where users can adopt dogs from certified shelters. In addition to facilitating adoptions, shelters can run donation campaigns to support their operations and the care of the dogs. The platform is designed to be user-friendly, making it easy to browse available dogs and participate in donation campaigns.
 
 ## Features
 
@@ -21,6 +21,7 @@ This is an adoption platform for street dogs where users can adopt dogs from cer
 
 ## Technical Details
 - **Frontend**: Built with React
-- **Backend**: Powered by Node.js and Express
+- **Backend**: Powered by Node.js and GraphQL
 - **Database**: Utilizes PostgreSQL
 - **Chat**: Real-time communication enabled by Socket.io
+- **Payments**: Donation payments handled securely using Stripe
